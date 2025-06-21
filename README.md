@@ -114,7 +114,8 @@ npm start
 ---
 
 ## 📬 Contact
-Made with ❤️ by Gunjan Soni
+
+Made with ❤️ by Gunjan Verma   
 Feel free to connect or raise an issue!
 
 ```yaml

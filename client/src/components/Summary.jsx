@@ -68,12 +68,18 @@ const SummaryStep = ({ formData }) => {
           <img
   src={
     typeof profilePhoto === "string"
-      ? `http://localhost:5000/uploads/${profilePhoto}`
+      ? `https://mern-user-backend-ovcm.onrender.com/uploads/${profilePhoto}`
       : URL.createObjectURL(profilePhoto)
   }
-  alt="Profile"
-  className="mt-2 rounded-full border object-cover"
-  style={{ width: "100px", height: "100px" }} // ✅ Set fixed size
+  alt="Profile Preview"
+  style={{
+    width: "120px",
+    height: "120px",
+    objectFit: "cover",
+    borderRadius: "8px",
+    border: "1px solid #ccc",
+    marginTop: "10px"
+  }}
 />
 
         </div>

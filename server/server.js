@@ -14,6 +14,11 @@ app.use(cors());
 // Static folder to serve uploaded profile pictures
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
+// Root route for testing backend connection
+app.get("/", (req, res) => {
+  res.send("🚀 Backend is live and working!");
+});
+
 // Routes
 const userRoutes = require("./routes/userRoutes");
 app.use("/api/user", userRoutes);

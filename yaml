@@ -1,0 +1,15 @@
+---
+
+## ⚙️ Installation & Running Locally
+
+### Prerequisites
+- Node.js
+- MongoDB
+- Git
+
+### Steps
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/mern-user-profile.git
+cd mern-user-profile

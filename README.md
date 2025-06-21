@@ -120,7 +120,6 @@ Feel free to connect or raise an issue!
 
 ```yaml
 
----
 
 ### ✅ To Add It to Your Project:
 

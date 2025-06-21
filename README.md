@@ -6,9 +6,10 @@ A full-stack Multi-Step User Profile Form built with the MERN stack (MongoDB, Ex
  
 ## 🚀 Live Demo
 
-🔗 [Click here to view the live site](#)  
-https://mern-user-profile-gunjan-vermas-projects.vercel.app/
+🔗 [Click on below links to view the live site]  
 
+- **Frontend (React on Vercel)**: https://mern-user-profile-gunjan-vermas-projects.vercel.app/
+- **Backend (Node.js on Render)**: https://mern-user-backend-ovcm.onrender.com/
 
 ---
 

@@ -58,3 +58,24 @@ mern-user-profile/
 ├── .env                   # Environment variables
 ├── README.md
 └── package.json
+
+
+---
+
+## 📦 How to Run Locally
+
+# Clone the repo
+git clone https://github.com/your-username/mern-user-profile.git
+cd mern-user-profile
+
+# Install backend dependencies
+npm install
+
+# Start backend
+npm start
+
+# Open a new terminal for frontend
+cd client
+npm install
+npm start
+
